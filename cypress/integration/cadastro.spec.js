@@ -39,11 +39,6 @@ describe('Cadastro', () => {
 
         cy.get('button#submitAccount').click()
 
-        cy.contains('Welcome to your account.')
-        // confirma se o registro foi feito corretamente
-        // validar no topo do site o nome e o sobrenome
-
-        
- 
+        cy.contains('Welcome to your account.')  
     });
 });
