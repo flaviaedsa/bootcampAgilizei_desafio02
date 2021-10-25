@@ -1,5 +1,21 @@
-# bootcampAgilizei_desafio02
+![Cypress](https://pasteboard.co/DqmWlXbKt3ig.png)
 
-Cadastro realizado no site de compras "automationpractice.com"
+## BootcampAgilizei_Desafio02_Cadastro_no_site_de_compras "automationpractice.com"
 
-![cypress] (https://pasteboard.co/DqmWlXbKt3ig.png)
+## Tecnologia
+
+* Node versão
+* Cypress versão
+
+## Instalação
+
+* To install gems:
+>    $ npm install
+
+## Execução
+
+>    $ npx cypress open
+
+## Autora
+ 
+* **Flávia batista**: @flaviaedsa (https://github.com/flaviaedsa)
