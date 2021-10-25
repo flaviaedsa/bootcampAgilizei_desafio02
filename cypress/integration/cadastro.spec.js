@@ -5,8 +5,7 @@ var chance = new Chance();
 
 describe('Cadastro', () => {
     it('Quando eu informar os dados e finalizar, então o cadastro deve ser efetuado com sucesso', () => {
-        cy.visit('http://automationpractice.com/index.php')
-
+        cy.visit('http://automationpractice.com')
   
         cy.get('.login').click()
 

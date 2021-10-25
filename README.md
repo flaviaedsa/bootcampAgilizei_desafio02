@@ -18,4 +18,4 @@
 
 ## Autora
  
-* **Flávia batista**: @flaviaedsa (https://github.com/flaviaedsa)
+* **Flávia Batista**: @flaviaedsa (https://github.com/flaviaedsa)
