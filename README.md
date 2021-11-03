@@ -3,23 +3,22 @@
 
 ## Tecnologia
 
-* Node versão v14.16.1
-* Cypress
-* Chance (Geração de dados aleatórios)
-* GH Actions (CI)
-* Mochawesone (Relatório)
+    * Node versão v14.16.1
+    * Cypress
+    * Chance (Geração de dados aleatórios)
+    * GH Actions (CI)
+    * Mochawesone (Relatório)
 
-## Instalação
+## Instalação & Execução:
 
->   $ Faça o clone do projeto e dentro da pasta siga o comando abaixo
-
->   $ npm install
+    $ git clone <repositório>
+    $ cd repositorio/
+    $ npm install
 
 ## Execução
 
->   $ npx cypress open (abrindo o browser)
-
->   $ npx cypress run (modo headless)
+    $ npx cypress open (abrindo o browser)
+    $ npx cypress run (modo headless)
 
 ## Autora
  
