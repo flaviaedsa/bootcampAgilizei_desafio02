@@ -12,11 +12,13 @@
 ## Instalação
 
 >   $ Faça o clone do projeto e dentro da pasta siga o comando abaixo
+
 >   $ npm install
 
 ## Execução
 
 >   $ npx cypress open (abrindo o browser)
+
 >   $ npx cypress run (modo headless)
 
 ## Autora
