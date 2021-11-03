@@ -31,7 +31,7 @@ jobs:
     
     - run: npm run report:mocha
     
-# Githu Pages -> publicar o relatório
+# Github Pages -> publicar o relatório
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@4.1.5
       with:
