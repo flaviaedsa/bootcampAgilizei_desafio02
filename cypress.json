@@ -1,6 +1,5 @@
 {
     "$schema": "https://on.cypress.io/cypress.schema.json",
-    "video": false,
     "reporter": "cypress-multi-reporters",
     "reporterOptions": {
         "configFile": "reporter-config.json"

@@ -21,6 +21,5 @@
     "mochawesome-merge": "^4.2.0",
     "mochawesome-report-generator": "^5.2.0",
     "rimraf": "^3.0.2"
-  },
-  "dependencies": {}
+  }
 }
