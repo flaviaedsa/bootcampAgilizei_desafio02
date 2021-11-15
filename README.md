@@ -1,9 +1,7 @@
 
 ## BootcampAgilizei_Desafio02_Cadastro_no_site_de_compras "automationpractice.com"
 
-<p align="center">
-    <img width="470" height="300" Gif="Gif/cadastro.spec.js.gif">
-</p>
+![cadastro spec js](https://user-images.githubusercontent.com/42754007/141793185-04d763d2-ba9a-4063-9106-21d9ad10a1bc.gif)
 
 ## Tecnologia
 
