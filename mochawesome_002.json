@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-11-15T13:13:15.490Z",
-    "end": "2021-11-15T13:13:55.088Z",
-    "duration": 39598,
+    "start": "2021-11-15T13:48:02.612Z",
+    "end": "2021-11-15T13:48:27.113Z",
+    "duration": 24501,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "60e72421-89eb-49ed-9feb-9f3d59f59a83",
+      "uuid": "ee9d811c-9a6f-4bd4-857d-f636aff48b5c",
       "title": "",
       "fullFile": "cypress/integration/cadastro.spec.js",
       "file": "cypress/integration/cadastro.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "cf039186-d1d5-4792-b650-b99ddcd95c7a",
+          "uuid": "bbfdd302-cd81-4156-a3f3-72f1788e3e2d",
           "title": "Cadastro",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Quando eu informar os dados e finalizar, então o cadastro deve ser efetuado com sucesso",
               "fullTitle": "Cadastro Quando eu informar os dados e finalizar, então o cadastro deve ser efetuado com sucesso",
               "timedOut": null,
-              "duration": 35254,
+              "duration": 20259,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('http://automationpractice.com');\ncy.get('.login').click();\ncy.get('input#email_create').type(chance.email());\ncy.get('button#SubmitCreate').click(); // PERSONAL INFORMATION\ncy.get('input#id_gender2').check();\ncy.get('input#customer_firstname').type(chance.first());\ncy.get('input#customer_lastname').type(chance.last());\ncy.get('input#passwd').type(chance.string({\n  length: 5\n}));\ncy.get('select#days').select(chance.natural({\n  min: 1,\n  max: 28\n}));\ncy.get('select#months').select(chance.month());\ncy.get('select#years').select(chance.year({\n  min: 1950,\n  max: 2000\n})); // YOUR ADDRESS\ncy.get('input#company').type(chance.company());\ncy.get('input#address1').type(chance.address());\ncy.get('input#address2').type(chance.address());\ncy.get('input#city').type(chance.city());\ncy.get('select#id_state').select(chance.natural({\n  min: 1,\n  max: 53\n}));\ncy.get('input#postcode').type(chance.zip());\ncy.get('textarea[id=other]').type('Test');\ncy.get('input#phone').type(chance.phone());\ncy.get('input#phone_mobile').type(chance.phone());\ncy.get('input#alias').type(chance.email());\ncy.get('button#submitAccount').click();\ncy.contains('Welcome to your account.');",
               "err": {},
-              "uuid": "c1770166-61cf-401d-860b-e6b1a0c637da",
-              "parentUUID": "cf039186-d1d5-4792-b650-b99ddcd95c7a",
+              "uuid": "e53dbf30-5123-4b43-8869-04529f91af33",
+              "parentUUID": "bbfdd302-cd81-4156-a3f3-72f1788e3e2d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c1770166-61cf-401d-860b-e6b1a0c637da"
+            "e53dbf30-5123-4b43-8869-04529f91af33"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 35254,
+          "duration": 20259,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
